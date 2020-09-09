@@ -1,0 +1,13 @@
+
+.footer-brand {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-brand-img, .footer-brand {
+        max-width: 150px;
+        height: auto;
+    }
+}
