@@ -5,11 +5,7 @@
     <link>https://loreshelf.com/</link>
     <description>Recent content on Loreshelf - notes organizer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://loreshelf.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://loreshelf.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Community</title>
       <link>https://loreshelf.com/community/</link>
@@ -34,8 +30,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://loreshelf.com/whats-new/</guid>
-      <description>What&#39;s new  Find out what&#39;s new in the latest Loreshelf release.     Changelog v1.0 - September 3th, 2020 This is the initial release of Loreshelf.
-   New Feature    Slash Commands  Add new content with slash commands. For example headers, tables, icons, quotes, and more.       New Feature    Mentions  Mention and link to the related information across notebooks and workspaces.</description>
+      <description>What&#39;s new  Find out what&#39;s new in the latest Loreshelf release.     Changelog v1.1 - October 4th, 2020 This release includes minor updates that are fully backward compatible. If you run on Win/Linux you may upgrade inside your app automatically through the notifications or using the menu. Mac users may install Loreshelf 1.1 here.
+   New Feature    Dynamic check icon  A click on the check icon will change its state.</description>
     </item>
     
   </channel>
