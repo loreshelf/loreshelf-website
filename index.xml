@@ -30,8 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://loreshelf.com/whats-new/</guid>
-      <description>What&#39;s new  Find out what&#39;s new in the latest Loreshelf release.     Changelog v1.1 - October 4th, 2020 This release includes minor updates that are fully backward compatible. If you run on Win/Linux you may upgrade inside your app automatically through the notifications or using the menu. Mac users may install Loreshelf 1.1 here.
-   New Feature    Dynamic check icon  A click on the check icon will change its state.</description>
+      <description>What&#39;s new  Find out what&#39;s new in the latest Loreshelf release.     Changelog v1.2 - October 13th, 2020 This release fixes few serious issues such as remembering last opened workspaces, sorting, filtering, drag and drop notecards on the background, and improves export to PDF. If you run on Win/Linux you may upgrade inside your app automatically through the notifications or using the menu. Mac users may install Loreshelf 1.</description>
     </item>
     
   </channel>
