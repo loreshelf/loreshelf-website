@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Slash commands - Loreshelf Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../custom.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Slash commands";
+    var mkdocs_page_input_path = "Loreshelf Docs/slash commands.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Loreshelf Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="basic concepts.html">Basic concepts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="export.html">Export</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="filtering.html">Filtering</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="formating.html">Formating</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="icons.html">Icons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="images.html">Images</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="keyboard shortcuts.html">Keyboard shortcuts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="links.html">Links</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="lists.html">Lists</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="mentions.html">Mentions</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="notebooks.html">Notebooks</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="notecards.html">Notecards</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="search.html">Search</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="security.html">Security</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="sharing.html">Sharing</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="slash commands.html">Slash commands</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#header">Header</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#example-header">Example header</a></li>
+        
+            <li><a class="toctree-l3" href="#star-empty-header-with-icon">star-empty Header with icon</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#form">Form</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#add-new-row">Add new row</a></li>
+        
+            <li><a class="toctree-l3" href="#remove-row">Remove row</a></li>
+        
+            <li><a class="toctree-l3" href="#remove-form">Remove form</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#table">Table</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#add-new-row_1">Add new row</a></li>
+        
+            <li><a class="toctree-l3" href="#remove-row_1">Remove row</a></li>
+        
+            <li><a class="toctree-l3" href="#remove-table">Remove table</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#quote">Quote</a></li>
+    
+
+    <li class="toctree-l2"><a href="#date-and-time">Date and time</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#today-date">Today date</a></li>
+        
+            <li><a class="toctree-l3" href="#now-time">Now time</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#icons">Icons</a></li>
+    
+
+    <li class="toctree-l2"><a href="#large-message">Large message</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#10-000">$10 000</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#horizontal-rule">Horizontal rule</a></li>
+    
+
+    <li class="toctree-l2"><a href="#code-block">Code block</a></li>
+    
+
+    <li class="toctree-l2"><a href="#inline-code">Inline code</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="sorting and placement.html">Sorting and placement</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="synchronization.html">Synchronization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="vault.html">Vault</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="zen mode.html">Zen mode</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Loreshelf Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Slash commands</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="header">Header</h1>
+<p>Write /header and confirm with <em>Enter</em>.</p>
+<h2 id="example-header">Example header</h2>
+<p>Headers can contain icons</p>
+<h2 id="star-empty-header-with-icon"><svg data-icon="star-empty" width="16" height="16" viewBox="0 0 16 16" style="fill: #ffb366;"><desc>star-empty</desc><path d="M16 6.11l-5.53-.84L8 0 5.53 5.27 0 6.11l4 4.1L3.06 16 8 13.27 12.94 16 12 10.21l4-4.1zM4.91 13.2l.59-3.62L3 7.02l3.45-.53L8 3.2l1.55 3.29 3.45.53-2.5 2.56.59 3.62L8 11.49 4.91 13.2z" fill-rule="evenodd"></path></svg> Header with icon</h2>
+<p>/icon-</p>
+<h1 id="form">Form</h1>
+<p>Write /form and confirm with <em>Enter</em>.</p>
+<pre><code class="metadata">Example form property=Example form value
+</code></pre>
+
+<h2 id="add-new-row">Add new row</h2>
+<p>Press <em>Enter</em> when the cursor is in the form.</p>
+<p>Alternatively right click on the row and select <strong>Add row after</strong> from the context menu.</p>
+<h2 id="remove-row">Remove row</h2>
+<p>Right click on the row and select <strong>Delete row</strong> from the context menu.</p>
+<h2 id="remove-form">Remove form</h2>
+<p>Right click on the form and select <strong>Remove table</strong> from the context menu.</p>
+<h1 id="table">Table</h1>
+<p>Write /table and confirm with <em>Enter</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Example table</td>
+<td>with 2 columns</td>
+</tr>
+</tbody>
+</table>
+<h2 id="add-new-row_1">Add new row</h2>
+<p>Press <em>Enter</em> when the cursor is in a cell.</p>
+<p>Alternatively right click on the row and select <strong>Add row after</strong> from the context menu.</p>
+<h2 id="remove-row_1">Remove row</h2>
+<p>Right click on the row and select <strong>Delete row</strong> from the context menu.</p>
+<p>Alternatively select all cells in the row and press <em>Delete</em> key.</p>
+<h2 id="remove-table">Remove table</h2>
+<p>Right click on the table and select <strong>Remove table</strong> from the context menu.</p>
+<h1 id="quote">Quote</h1>
+<p>Write /quote and confirm with <em>Enter</em>.</p>
+<blockquote>
+<p>Example quote</p>
+<p>Long quote</p>
+<p>on multiple lines</p>
+</blockquote>
+<h1 id="date-and-time">Date and time</h1>
+<h2 id="today-date">Today date</h2>
+<p>Write /today and confirm with <em>Enter</em>.</p>
+<p>May 5, 2020</p>
+<h2 id="now-time">Now time</h2>
+<p>Write /now and confirm with <em>Enter</em>.</p>
+<p>20:45</p>
+<h1 id="icons">Icons</h1>
+<p>Write / and icon command to filter out the options. When selected press Enter.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>icon-none</td>
+<td><svg data-icon="circle" width="16" height="16" viewBox="0 0 16 16" style="fill: hsla(204, 33%, 97%, 1);"><desc>circle</desc><path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-yes</td>
+<td><svg data-icon="tick-circle" width="16" height="16" viewBox="0 0 16 16" style="fill: #3dcc91;"><desc>tick-circle</desc><path d="M8 16c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm4-11c-.28 0-.53.11-.71.29L7 9.59l-2.29-2.3a1.003 1.003 0 00-1.42 1.42l3 3c.18.18.43.29.71.29s.53-.11.71-.29l5-5A1.003 1.003 0 0012 5z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-no</td>
+<td><svg data-icon="delete" width="16" height="16" viewBox="0 0 16 16" style="fill: #db3737;"><desc>delete</desc><path d="M11.99 4.99a1.003 1.003 0 00-1.71-.71l-2.29 2.3L5.7 4.29a.965.965 0 00-.71-.3 1.003 1.003 0 00-.71 1.71l2.29 2.29-2.29 2.29A1.003 1.003 0 005.7 11.7l2.29-2.29 2.29 2.29a1.003 1.003 0 001.42-1.42L9.41 7.99 11.7 5.7c.18-.18.29-.43.29-.71zm-4-5c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.68 6-6 6z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-not</td>
+<td><svg data-icon="disable" width="16" height="16" viewBox="0 0 16 16" style="fill: #db3737;"><desc>disable</desc><path d="M7.99-.01c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm-6 8c0-3.31 2.69-6 6-6 1.3 0 2.49.42 3.47 1.12l-8.35 8.35c-.7-.98-1.12-2.17-1.12-3.47zm6 6c-1.3 0-2.49-.42-3.47-1.12l8.35-8.35c.7.98 1.12 2.17 1.12 3.47 0 3.32-2.68 6-6 6z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-question</td>
+<td><svg data-icon="help" width="16" height="16" viewBox="0 0 16 16" style="fill: hsla(204, 33%, 97%, 1);"><desc>help</desc><path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm1 13H7v-2h2v2zm1.93-6.52c-.14.32-.35.64-.62.97L9.25 8.83c-.12.15-.24.29-.28.42-.04.13-.09.3-.09.52V10H7.12V8.88s.05-.51.21-.71L8.4 6.73c.22-.26.35-.49.44-.68.09-.19.12-.38.12-.58 0-.3-.1-.55-.28-.75-.18-.19-.44-.28-.76-.28-.33 0-.59.1-.78.29-.19.19-.33.46-.4.81-.03.11-.1.15-.2.14l-1.7-.25c-.12-.01-.16-.08-.14-.19.12-.82.46-1.47 1.03-1.94.57-.48 1.32-.72 2.25-.72.47 0 .9.07 1.29.22s.72.34 1 .59c.28.25.49.55.65.89.15.35.22.72.22 1.12s-.07.75-.21 1.08z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-dot</td>
+<td><svg data-icon="selection" width="16" height="16" viewBox="0 0 16 16" style="fill: hsla(204, 33%, 97%, 1);"><desc>selection</desc><path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-9C6.34 5 5 6.34 5 8s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-pin</td>
+<td><svg data-icon="pin" width="16" height="16" viewBox="0 0 16 16" style="fill: #0081C9;"><desc>pin</desc><path d="M9.41.92c-.51.51-.41 1.5.15 2.56L4.34 7.54C2.8 6.48 1.45 6.05.92 6.58l3.54 3.54-3.54 4.95 4.95-3.54 3.54 3.54c.53-.53.1-1.88-.96-3.42l4.06-5.22c1.06.56 2.04.66 2.55.15L9.41.92z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-warning</td>
+<td><svg data-icon="warning-sign" width="16" height="16" viewBox="0 0 16 16" style="fill: #ffb366;"><desc>warning-sign</desc><path d="M15.84 13.5l.01-.01-7-12-.01.01c-.17-.3-.48-.5-.85-.5s-.67.2-.85.5l-.01-.01-7 12 .01.01c-.09.15-.15.31-.15.5 0 .55.45 1 1 1h14c.55 0 1-.45 1-1 0-.19-.06-.35-.15-.5zm-6.85-.51h-2v-2h2v2zm0-3h-2v-5h2v5z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-info</td>
+<td><svg data-icon="info-sign" width="16" height="16" viewBox="0 0 16 16" style="fill: hsla(204, 33%, 97%, 1);"><desc>info-sign</desc><path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM7 3h2v2H7V3zm3 10H6v-1h1V7H6V6h3v6h1v1z" fill-rule="evenodd"></path></svg></td>
+</tr>
+<tr>
+<td>icon-star</td>
+<td><svg data-icon="star-empty" width="16" height="16" viewBox="0 0 16 16" style="fill: #ffb366;"><desc>star-empty</desc><path d="M16 6.11l-5.53-.84L8 0 5.53 5.27 0 6.11l4 4.1L3.06 16 8 13.27 12.94 16 12 10.21l4-4.1zM4.91 13.2l.59-3.62L3 7.02l3.45-.53L8 3.2l1.55 3.29 3.45.53-2.5 2.56.59 3.62L8 11.49 4.91 13.2z" fill-rule="evenodd"></path></svg></td>
+</tr>
+</tbody>
+</table>
+<h1 id="large-message">Large message</h1>
+<p>Write /large and confirm with <em>Enter</em>.</p>
+<h6 id="10-000">$10 000</h6>
+<h1 id="horizontal-rule">Horizontal rule</h1>
+<p>Write /rule and confirm with <em>Enter</em>.</p>
+<hr />
+<h1 id="code-block">Code block</h1>
+<p>Write /code and confirm with <em>Enter</em>.</p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+  printf(&quot;Hello, World!&quot;);
+  return 0;
+}
+</code></pre>
+
+<ul>
+<li>Hover over the code block and click on the copy button to copy the code to clipboard</li>
+</ul>
+<p><img alt="Copy code.png" src="img/Copy%20code.png" /></p>
+<h1 id="inline-code">Inline code</h1>
+<p>Write /code-inline and confirm with <em>Enter</em>.</p>
+<p>Example inline <code>code</code></p>
+<p>Alternatively select text and press CTRL + Shift + C.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="sorting and placement.html" class="btn btn-neutral float-right" title="Sorting and placement">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="sharing.html" class="btn btn-neutral" title="Sharing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="sharing.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="sorting and placement.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

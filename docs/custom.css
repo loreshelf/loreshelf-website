@@ -1,0 +1,60 @@
+.wy-nav-side {
+    background: hsla(206, 24%, 21%, 1);
+}
+.wy-menu-vertical a:hover {
+    background-color: rgba(138, 155, 168, 0.15);
+}
+.wy-side-nav-search {
+    background-color: #00679e;
+}
+.rst-versions .rst-current-version {
+    background-color: hsla(206, 24%, 21%, 1);
+}
+.wy-nav-content-wrap {
+    background: hsla(206, 24%, 21%, 1);
+}
+.wy-nav-content {
+    background: #30404d;
+    color: #FAF4E2;
+}
+.wy-nav-content a:hover, .wy-nav-content a:visited:hover {
+    color: #FAF4E2;
+}
+.wy-nav-content a, .wy-nav-content a:visited {
+    color: #92f8e6;
+}
+.wy-table thead, .rst-content table.docutils thead, .rst-content table.field-list thead {
+    color: #FAF4E2;
+}
+.wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: transparent;
+}
+.wy-table td, .rst-content table.docutils td, .rst-content table.field-list td {
+    background-color: transparent;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(16, 22, 26, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.55);
+}
+
+body {
+    scrollbar-color: rgba(16, 22, 26, 0.2) rgba(255, 255, 255, 0.4);
+    scrollbar-width: thin;
+}

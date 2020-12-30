@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Sorting and placement - Loreshelf Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../custom.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Sorting and placement";
+    var mkdocs_page_input_path = "Loreshelf Docs/sorting and placement.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Loreshelf Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="basic concepts.html">Basic concepts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="export.html">Export</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="filtering.html">Filtering</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="formating.html">Formating</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="icons.html">Icons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="images.html">Images</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="keyboard shortcuts.html">Keyboard shortcuts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="links.html">Links</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="lists.html">Lists</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="mentions.html">Mentions</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="notebooks.html">Notebooks</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="notecards.html">Notecards</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="search.html">Search</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="security.html">Security</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="sharing.html">Sharing</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="slash commands.html">Slash commands</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="sorting and placement.html">Sorting and placement</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#notebook-naming">Notebook naming</a></li>
+    
+
+    <li class="toctree-l2"><a href="#outline-notecards">Outline notecards</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#reorder-notecards-in-notebook">Reorder notecards in notebook</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#sort-by-name">Sort by name</a></li>
+    
+
+    <li class="toctree-l2"><a href="#sort-by-last-updated">Sort by last updated</a></li>
+    
+
+    <li class="toctree-l2"><a href="#reorder-notecards">Reorder notecards</a></li>
+    
+
+    <li class="toctree-l2"><a href="#move-notecards-between-notebooks">Move notecards between notebooks</a></li>
+    
+
+    <li class="toctree-l2"><a href="#move-notebook-to-workspace">Move notebook to workspace</a></li>
+    
+
+    <li class="toctree-l2"><a href="#move-blocks">Move blocks</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="synchronization.html">Synchronization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="vault.html">Vault</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="zen mode.html">Zen mode</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Loreshelf Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Sorting and placement</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="notebook-naming">Notebook naming</h1>
+<p>The first listed notebook is opened automatically when the workspace loads.</p>
+<p>Name notebooks with upper case letters in order to list them at the beginning.</p>
+<p>For example you may have a README notebook at the beginning of your workspace and other notebooks with lower case letters.</p>
+<h1 id="outline-notecards">Outline notecards</h1>
+<h2 id="reorder-notecards-in-notebook">Reorder notecards in notebook</h2>
+<p>Manually drag and drop notecards using the handle next to notecard’s title to reorder them in the current notebook.</p>
+<p><img alt="Reorder notecards.png" src="img/Reorder%20notecards.png" /></p>
+<h1 id="sort-by-name">Sort by name</h1>
+<p><img alt="Sort by name.png" src="img/Sort%20by%20name.png" /></p>
+<p>Sort list of notebooks on the left side by name ascending or descending using the sort switch button.</p>
+<h1 id="sort-by-last-updated">Sort by last updated</h1>
+<p><img alt="Sort by last updated.png" src="img/Sort%20by%20last%20updated.png" /></p>
+<p>Sort list of notebooks on the left side by last updated ascending or descending using the sort switch button.</p>
+<h1 id="reorder-notecards">Reorder notecards</h1>
+<p>Manually drag and drop notecards using the handle next to notecard’s title to reorder them in this notebook.</p>
+<h1 id="move-notecards-between-notebooks">Move notecards between notebooks</h1>
+<p>Drag and drop a notecard to another notebook by dropping it on top of the notebook name in the list.</p>
+<p><img alt="Move notecards between notebooks.png" src="img/Move%20notecards%20between%20notebooks.png" /></p>
+<h1 id="move-notebook-to-workspace">Move notebook to workspace</h1>
+<p><img alt="Move notebook to workspace.png" src="img/Move%20notebook%20to%20workspace.png" /></p>
+<p>Right click on the notebook’s title and hover over <strong>Move to workspace</strong> and select the workspace where the current notebook should be moved to.</p>
+<h1 id="move-blocks">Move blocks</h1>
+<p>Use key shortcut ALT+UP / DOWN to move the current block (e.g. paragraph) before or after the other block in the notecard.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="synchronization.html" class="btn btn-neutral float-right" title="Synchronization">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="slash commands.html" class="btn btn-neutral" title="Slash commands"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="slash commands.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="synchronization.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
