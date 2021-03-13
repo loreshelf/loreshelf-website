@@ -30,8 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://loreshelf.com/whats-new/</guid>
-      <description>What&#39;s new  Find out what&#39;s new in the latest Loreshelf release.     Changelog v1.4 - December 30th, 2020 This version includes many small improvements and fixes making its daily use more satisfying. If you run on Win/Linux you may upgrade inside your app automatically through the notifications or using the menu. Mac users may install Loreshelf 1.4 here.
-Documentation is now available online. It includes the same in-app information.</description>
+      <description>What&#39;s new  Find out what&#39;s new in the latest Loreshelf release.     Changelog v1.5 - March 13th, 2021 When working in Loreshelf some notebooks require different configurations than others. Sometimes it&#39;s more practical to add new notecards to the top and sometimes it&#39;s faster to let Loreshelf order the notecards by title. Loreshelf 1.5 enables to configure each notebook separately when the default setting is not enough.</description>
     </item>
     
   </channel>
